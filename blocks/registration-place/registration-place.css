@@ -1,0 +1,12 @@
+.registration-place {
+  display: flex;
+  width: 100%;
+  color: rgba(43, 17, 5, 1);
+}
+
+@media screen and (max-width: 1184px) {
+  .registration-place {
+    flex-direction: column;
+    align-items: center;
+  }
+}

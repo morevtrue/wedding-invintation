@@ -1,0 +1,8 @@
+.our-history {
+  background-color: rgba(198, 117, 77, 1);
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

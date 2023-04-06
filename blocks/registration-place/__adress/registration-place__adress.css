@@ -1,0 +1,28 @@
+.registration-place__adress {
+  margin: 0 auto 100px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 1184px) {
+  .registration-place__adress {
+    margin: 0 auto 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .registration-place__adress {
+    font-size: 16px;
+    max-width: 90vw;
+    /* margin: 70px auto 32px; */
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .registration-place__adress {
+    font-size: 14px;
+    margin: 0 auto 40px;
+  }
+}

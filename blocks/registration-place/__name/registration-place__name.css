@@ -1,0 +1,21 @@
+.registration-place__name {
+  margin: 0 auto 32px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .registration-place__name {
+    font-size: 48px;
+    max-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .registration-place__name {
+    font-size: 32px;
+    margin: 0 auto 24px;
+  }
+}

@@ -1,0 +1,24 @@
+.invitation__photo {
+  width: 100%;
+  max-width: 1000px;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1121px) {
+  .invitation__photo {
+    max-width: 767px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .invitation__photo {
+    max-width: 479px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .invitation__photo {
+    max-width: 320px;
+  }
+}

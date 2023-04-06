@@ -1,0 +1,31 @@
+.wedding-plan__time {
+  width: 100%;
+  max-width: 248px;
+  color: rgba(198, 117, 77, 1);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+}
+
+@media (max-width: 1184px) {
+  .wedding-plan__time {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-plan__time {
+    max-width: 195px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 491px) {
+  .wedding-plan__time {
+    max-width: 100px;
+    font-size: 16px;
+  }
+}

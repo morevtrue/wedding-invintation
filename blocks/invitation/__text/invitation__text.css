@@ -1,0 +1,20 @@
+.invitation__text {
+  font-weight: 400;
+  font-size: 24px;
+  color: #c6754d;
+  line-height: 1;
+  margin: 89px 0 16px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .invitation__text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .invitation__text {
+    font-size: 16px;
+  }
+}

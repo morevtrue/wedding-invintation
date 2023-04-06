@@ -1,0 +1,11 @@
+.wedding-wish-guests__form-input {
+  text-align: left;
+  margin: 0 0 20px;
+  border-color: rgba(252, 249, 247, 1);
+}
+
+@media (max-width: 491px) {
+  .wedding-wish-guests__form-input {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.wedding-wish-guests__form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 491px) {
+  .wedding-wish-guests__form {
+    max-width: 280px;
+  }
+}

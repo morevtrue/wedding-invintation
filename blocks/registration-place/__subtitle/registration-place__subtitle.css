@@ -1,0 +1,21 @@
+.registration-place__subtitle {
+  margin: 0 auto 32px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 767px) {
+  .registration-place__subtitle {
+    font-size: 16px;
+    max-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .registration-place__subtitle {
+    font-size: 14px;
+    margin: 0 auto 24px;
+  }
+}

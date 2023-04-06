@@ -1,0 +1,37 @@
+.our-history__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35.2px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1184px) {
+  .our-history__subtitle {
+    margin: 0 0 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .our-history__subtitle {
+    font-size: 20px;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-history__subtitle {
+    margin: 0 0 60px;
+    font-size: 18px;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .our-history__subtitle {
+    margin: 0 0 45px;
+    font-size: 16px;
+    max-width: 300px;
+  }
+}

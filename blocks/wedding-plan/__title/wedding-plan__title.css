@@ -1,0 +1,28 @@
+.wedding-plan__title {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1;
+  margin: 100px auto 0;
+  padding: 0;
+}
+
+@media (max-width: 1184px) {
+  .wedding-plan__title {
+    margin: 80px auto 0;
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wedding-plan__title {
+    font-size: 32px;
+    margin: 65px auto 0;
+  }
+}
+
+@media (max-width: 491px) {
+  .wedding-plan__title {
+    margin: 50px auto 0;
+    font-size: 24px;
+  }
+}
