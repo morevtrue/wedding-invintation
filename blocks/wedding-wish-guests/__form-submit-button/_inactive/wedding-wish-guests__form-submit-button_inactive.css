@@ -1,0 +1,10 @@
+.wedding-wish-guests__form-submit-button_inactive {
+  cursor: default;
+  color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, .3);
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

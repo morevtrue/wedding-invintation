@@ -1,0 +1,35 @@
+.menu__burger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu__burger {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    border-top: 4px solid #3399CC;
+    border-right: 4px solid #3399CC;
+    margin-right: 18px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__burger {
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #3399CC;
+    border-right: 3px solid #3399CC;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu__burger {
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #3399CC;
+    border-right: 2px solid #3399CC;
+    margin-right: 12px;
+  }
+}

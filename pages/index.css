@@ -12,6 +12,10 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__burger/menu__burger.css);
+@import url(../blocks/menu/__burger/_arrow/menu__burger_arrow_bottom.css);
+@import url(../blocks/menu/__burger/_arrow/menu__burger_arrow_top.css);
+@import url(../blocks/menu/__links/_opened/menu__links_opened.css);
 
 /* invitation */
 @import url(../blocks/invitation/invitation.css);
@@ -71,6 +75,8 @@
 @import url(../blocks/wedding-gifts/__column/wedding-gifts__column.css);
 @import url(../blocks/wedding-gifts/__title/wedding-gifts__title.css);
 @import url(../blocks/wedding-gifts/__subtitle/wedding-gifts__subtitle.css);
+@import url(../blocks/wedding-gifts/__answer/wedding-gifts__answer.css);
+@import url(../blocks/wedding-gifts/__text/wedding-gifts__text.css);
 
 /* wedding-wish-guests */
 @import url(../blocks/wedding-wish-guests/wedding-wish-guests.css);
@@ -81,3 +87,8 @@
 @import url(../blocks/wedding-wish-guests/__form-label/wedding-wish-guests__form-label.css);
 @import url(../blocks/wedding-wish-guests/__form-input/wedding-wish-guests__form-input.css);
 @import url(../blocks/wedding-wish-guests/__form-submit-button/wedding-wish-guests__form-submit-button.css);
+@import url(../blocks/wedding-wish-guests/__form-submit-button/_inactive/wedding-wish-guests__form-submit-button_inactive.css);
+@import url(../blocks/wedding-wish-guests/__form-error/wedding-wish-guests__form-error.css);
+@import url(../blocks/wedding-wish-guests/__form-error/_active/wedding-wish-guests__form-error_active.css);
+@import url(../blocks/wedding-wish-guests/__text/wedding-wish-guests__text.css);
+@import url(../blocks/wedding-wish-guests/__text/_type/wedding-wish-guests__text_type_error.css);

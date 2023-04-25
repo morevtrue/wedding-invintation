@@ -1,0 +1,9 @@
+.wedding-wish-guests__form-error {
+  min-height: 25px;
+}
+
+@media screen and (max-width: 491px) {
+  .wedding-wish-guests__form-error {
+    min-height: 17px;
+  }
+}

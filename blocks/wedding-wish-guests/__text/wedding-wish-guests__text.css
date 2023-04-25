@@ -1,0 +1,8 @@
+.wedding-wish-guests__text {
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+
+.wedding-wish-guests__text:hover {
+  opacity: .6;
+}

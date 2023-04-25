@@ -1,0 +1,41 @@
+.wedding-gifts__answer {
+  border-top: 4px solid #3399CC;
+  border-bottom: 4px solid #3399CC;
+  width: 100%;
+  max-width: 30vw;
+  margin: 40px 0 60px;
+  padding: 10px 0 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .wedding-gifts__answer {
+    max-width: 40vw;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .wedding-gifts__answer {
+    max-width: 50vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .wedding-gifts__answer {
+    max-width: 55vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wedding-gifts__answer {
+    max-width: 70vw;
+    border-top: 2px solid #3399CC;
+    border-bottom: 2px solid #3399CC;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .wedding-gifts__answer {
+    max-width: 75vw;
+    margin: 20px 0 30px;
+  }
+}

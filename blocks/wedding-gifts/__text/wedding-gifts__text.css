@@ -1,0 +1,43 @@
+.wedding-gifts__text {
+  text-transform: uppercase;
+  margin: 15px auto;
+  padding: 0;
+  max-width: 24vw;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1440px) {
+  .wedding-gifts__text {
+    max-width: 31vw;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .wedding-gifts__text {
+    max-width: 38vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .wedding-gifts__text {
+    max-width: 45vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wedding-gifts__text {
+    max-width: 48vw;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .wedding-gifts__text {
+    max-width: 65vw;
+    font-size: 12px;
+  }
+}
