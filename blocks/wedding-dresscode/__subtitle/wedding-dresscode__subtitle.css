@@ -1,5 +1,5 @@
 .wedding-dresscode__subtitle {
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
   margin: 0 10px;
   padding: 0;
@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 1184px) {
   .wedding-dresscode__subtitle {
-    font-size: 18px;
     max-width: 680px;
   }
 }
@@ -29,7 +28,7 @@
 
 @media screen and (max-width: 491px) {
   .wedding-dresscode__subtitle {
-    font-size: 12px;
+    font-size: 10px;
     max-width: 450px;
   }
 }

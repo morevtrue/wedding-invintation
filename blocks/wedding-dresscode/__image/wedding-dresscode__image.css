@@ -1,4 +1,16 @@
 .wedding-dresscode__image {
   width: 100%;
-  max-width: 28vw;
+  max-width: 14vw;
+}
+
+@media screen and (max-width: 1440px) {
+  .wedding-dresscode__image {
+    max-width: 20vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wedding-dresscode__image {
+    max-width: 28vw;
+  }
 }
