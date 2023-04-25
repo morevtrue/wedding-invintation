@@ -2,8 +2,14 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
-  color: #7e6052;
+  color: #3399CC;
   line-height: 1.45;
+}
+
+@media screen and (max-width: 1184px) {
+  .menu__link {
+    font-size: 16px;
+  }
 }

@@ -1,0 +1,36 @@
+.wedding-dresscode__title {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 1;
+  font-family: "French Kiss KG script", "Arial", "sans-serif";
+  color: #3399CC;
+  margin: 50px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .wedding-dresscode__title {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .wedding-dresscode__title {
+    font-size: 80px;
+    margin: 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wedding-dresscode__title {
+    font-size: 65px;
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .wedding-dresscode__title {
+    font-size: 50px;
+    margin: 30px 0 20px;
+  }
+}

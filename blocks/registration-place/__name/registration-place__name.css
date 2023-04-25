@@ -2,20 +2,39 @@
   margin: 0 auto 32px;
   width: 100%;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 100px;
   line-height: 1;
+  font-family: "French Kiss KG script", "Arial", "sans-serif";
+}
+
+@media screen and (max-width: 1440px) {
+  .registration-place__name {
+    font-size: 85px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .registration-place__name {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .registration-place__name {
+    font-size: 60px;
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .registration-place__name {
-    font-size: 48px;
-    max-width: 90vw;
+    font-size: 40px;
+    max-width: 95vw;
   }
 }
 
 @media screen and (max-width: 479px) {
   .registration-place__name {
-    font-size: 32px;
     margin: 0 auto 24px;
   }
 }

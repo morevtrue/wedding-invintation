@@ -1,7 +1,6 @@
 .our-history__text {
   display: flex;
   flex-direction: row;
-  color: rgba(252, 249, 247, 1);
   width: 100%;
   max-width: 1245px;
 }

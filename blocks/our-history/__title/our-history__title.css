@@ -1,38 +1,30 @@
 .our-history__title {
   font-weight: 400;
-  font-size: 101px;
-  line-height: 101px;
-  width: 100%;
-  max-width: 360px;
-  margin: 200px 100px;
+  font-size: 100px;
+  line-height: 1;
+  margin: 130px 0 130px 140px;
+  width: 30%;
+  font-family: "French Kiss KG script", "Arial", "sans-serif";
+  color: #3399CC;
 }
 
 @media screen and (max-width: 1184px) {
   .our-history__title {
-    margin: 100px 0 70px;
-    max-width: 607px;
+    margin: 70px 0 40px;
+    width: 100%;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 991px) {
   .our-history__title {
-    font-size: 80px;
-    max-width: 481px;
+    font-size: 70px;
+    margin: 60px 0 30px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .our-history__title {
-    margin: 50px 0 35px;
-    font-size: 50px;
-    max-width: 301px;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .our-history__title {
-    margin: 30px 0 20px;
-    font-size: 40px;
-    max-width: 241px;
+    display: none;
   }
 }

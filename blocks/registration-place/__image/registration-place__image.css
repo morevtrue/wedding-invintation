@@ -1,27 +1,17 @@
 .registration-place__image {
-  max-height: 375px;
   width: 100%;
-  max-width: 545px;
+  height: 100%;
   object-fit: cover;
-  border-radius: 40px;
 }
 
-@media screen and (max-width: 1184px) {
-  .registration-place__image {
-    margin: 0 0 70px;
-  }
-}
-
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .registration-place__image {
     max-height: 300px;
-    margin: 0 0 50px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .registration-place__image {
     max-height: 200px;
-    margin: 0 0 40px;
   }
-}
+} */

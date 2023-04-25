@@ -1,25 +1,26 @@
 .wedding-plan__name {
   font-weight: 400;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1;
   margin: 0;
   padding: 0;
+  color: #3399CC;
 }
 
 @media (max-width: 1184px) {
   .wedding-plan__name {
-    font-size: 28px;
+    font-size: 22px;
   }
 }
 
 @media (max-width: 767px) {
   .wedding-plan__name {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 491px) {
   .wedding-plan__name {
-    font-size: 20px;
+    font-size: 18px;
   }
 }

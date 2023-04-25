@@ -1,0 +1,10 @@
+.wedding-map__text {
+  min-width: 50%;
+  align-self: center;
+}
+
+@media screen and (max-width: 767px) {
+  .wedding-map__text {
+    display: none;
+  }
+}

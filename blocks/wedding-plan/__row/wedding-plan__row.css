@@ -1,36 +1,25 @@
 .wedding-plan__row {
   display: flex;
   width: 100%;
-  max-width: 888px;
-  margin: 67px auto 0;
-}
-
-.wedding-plan__row:last-of-type {
-  margin-bottom: 100px;
+  max-width: 600px;
+  margin: 50px auto 0;
 }
 
 @media (max-width: 1184px) {
   .wedding-plan__row {
-    margin: 60px auto 0;
-  }
-
-  .wedding-plan__row:last-of-type {
-    margin-bottom: 80px;
+    margin: 40px auto 0;
   }
 }
 
 @media (max-width: 767px) {
   .wedding-plan__row {
-    margin: 45px auto 0;
-  }
-
-  .wedding-plan__row:last-of-type {
-    margin-bottom: 65px;
+    margin: 30px auto 0;
+    max-width: 80vw;
   }
 }
 
 @media (max-width: 491px) {
-  .wedding-plan__row:last-of-type {
-    margin-bottom: 50px;
+  .wedding-plan__row {
+    max-width: 85vw;
   }
 }

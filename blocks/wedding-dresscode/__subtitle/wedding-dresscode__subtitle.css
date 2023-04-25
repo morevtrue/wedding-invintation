@@ -1,0 +1,31 @@
+.wedding-dresscode__subtitle {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  max-width: 90vw;
+}
+
+@media screen and (max-width: 1184px) {
+  .wedding-dresscode__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .wedding-dresscode__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wedding-dresscode__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .wedding-dresscode__subtitle {
+    font-size: 14px;
+  }
+}

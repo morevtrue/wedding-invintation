@@ -1,7 +1,7 @@
 .wedding-plan__text {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.2;
   margin: 0;
   padding: 0;
 }
@@ -15,5 +15,11 @@
 @media (max-width: 767px) {
   .wedding-plan__text {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .wedding-plan__text {
+    font-size: 12px;
   }
 }

@@ -1,28 +1,36 @@
 .wedding-plan__title {
   font-weight: 400;
-  font-size: 56px;
+  font-size: 100px;
   line-height: 1;
-  margin: 100px auto 0;
+  margin: 70px auto 0;
   padding: 0;
+  color: #3399CC;
+  font-family: "French Kiss KG script", "Arial", "sans-serif";
 }
 
 @media (max-width: 1184px) {
   .wedding-plan__title {
     margin: 80px auto 0;
-    font-size: 48px;
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .wedding-plan__title {
+    font-size: 70px;
   }
 }
 
 @media (max-width: 767px) {
   .wedding-plan__title {
-    font-size: 32px;
-    margin: 65px auto 0;
+    font-size: 60px;
+    margin: 45px auto 0;
   }
 }
 
 @media (max-width: 491px) {
   .wedding-plan__title {
-    margin: 50px auto 0;
-    font-size: 24px;
+    margin: 30px auto 0;
+    font-size: 50px;
   }
 }

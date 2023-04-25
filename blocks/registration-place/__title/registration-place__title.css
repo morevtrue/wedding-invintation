@@ -1,21 +1,32 @@
 .registration-place__title {
-  margin: 100px auto 32px;
+  margin: 24px auto 24px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1;
-  color: rgba(198, 117, 77, 1);
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1440px) {
+  .registration-place__title {
+    font-size: 26px;
+  }
 }
 
 @media screen and (max-width: 1184px) {
   .registration-place__title {
-    margin: 70px auto 32px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .registration-place__title {
+    font-size: 22px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .registration-place__title {
     font-size: 16px;
-    margin: 50px auto 32px;
     max-width: 90vw;
   }
 }
@@ -23,6 +34,5 @@
 @media screen and (max-width: 479px) {
   .registration-place__title {
     font-size: 14px;
-    margin: 40px auto 24px;
   }
 }

@@ -1,0 +1,9 @@
+.wedding-dresscode__color-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}

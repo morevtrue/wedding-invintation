@@ -16,7 +16,9 @@
 /* invitation */
 @import url(../blocks/invitation/invitation.css);
 @import url(../blocks/invitation/__text/invitation__text.css);
+@import url(../blocks/invitation/__enter/invitation__enter.css);
 @import url(../blocks/invitation/__title/invitation__title.css);
+@import url(../blocks/invitation/__subtitle/invitation__subtitle.css);
 @import url(../blocks/invitation/__date/invitation__date.css);
 @import url(../blocks/invitation/__photo/invitation__photo.css);
 
@@ -24,7 +26,9 @@
 @import url(../blocks/our-history/our-history.css);
 @import url(../blocks/our-history/__text/our-history__text.css);
 @import url(../blocks/our-history/__title/our-history__title.css);
-@import url(../blocks/our-history/__subtitle/our-history__subtitle.css);
+@import url(../blocks/our-history/__text-paragraphs/our-history__text-paragraphs.css);
+@import url(../blocks/our-history/__text-paragraph/our-history__text-paragraph.css);
+@import url(../blocks/our-history/__text-paragraph/_theme/our-history__text-paragraph_theme_blue.css);
 @import url(../blocks/our-history/__image/our-history__image.css);
 
 /* registration-place */
@@ -33,20 +37,40 @@
 @import url(../blocks/registration-place/__column/registration-place__column.css);
 @import url(../blocks/registration-place/__list/registration-place__list.css);
 @import url(../blocks/registration-place/__title/registration-place__title.css);
-@import url(../blocks/registration-place/__title/_theme/registration-place__title_theme_triumph.css);
 @import url(../blocks/registration-place/__name/registration-place__name.css);
 @import url(../blocks/registration-place/__subtitle/registration-place__subtitle.css);
 @import url(../blocks/registration-place/__adress/registration-place__adress.css);
 @import url(../blocks/registration-place/__image/registration-place__image.css);
+@import url(../blocks/registration-place/__house/registration-place__house.css);
 
 /* wedding-plan */
 @import url(../blocks/wedding-plan/wedding-plan.css);
 @import url(../blocks/wedding-plan/__title/wedding-plan__title.css);
+@import url(../blocks/wedding-plan/__day/wedding-plan__day.css);
 @import url(../blocks/wedding-plan/__row/wedding-plan__row.css);
 @import url(../blocks/wedding-plan/__time/wedding-plan__time.css);
 @import url(../blocks/wedding-plan/__overview/wedding-plan__overview.css);
 @import url(../blocks/wedding-plan/__name/wedding-plan__name.css);
 @import url(../blocks/wedding-plan/__text/wedding-plan__text.css);
+
+/* wedding-map */
+@import url(../blocks/wedding-map/wedding-map.css);
+@import url(../blocks/wedding-map/__text/wedding-map__text.css);
+@import url(../blocks/wedding-map/__title/wedding-map__title.css);
+
+/* wedding-dresscode */
+@import url(../blocks/wedding-dresscode/wedding-dresscode.css);
+@import url(../blocks/wedding-dresscode/__title/wedding-dresscode__title.css);
+@import url(../blocks/wedding-dresscode/__subtitle/wedding-dresscode__subtitle.css);
+@import url(../blocks/wedding-dresscode/__color-list/wedding-dresscode__color-list.css);
+@import url(../blocks/wedding-dresscode/__image/wedding-dresscode__image.css);
+@import url(../blocks/wedding-dresscode/__photo/wedding-dresscode__photo.css);
+
+/* wedding-gifts */
+@import url(../blocks/wedding-gifts/wedding-gifts.css);
+@import url(../blocks/wedding-gifts/__column/wedding-gifts__column.css);
+@import url(../blocks/wedding-gifts/__title/wedding-gifts__title.css);
+@import url(../blocks/wedding-gifts/__subtitle/wedding-gifts__subtitle.css);
 
 /* wedding-wish-guests */
 @import url(../blocks/wedding-wish-guests/wedding-wish-guests.css);
