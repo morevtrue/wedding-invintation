@@ -1,8 +1,16 @@
 .wedding-map__title {
-  text-align: center;
   color: #3399CC;
   font-family: "French Kiss KG script", "Arial", "sans-serif";
   font-size: 90px;
   line-height: 1;
   font-weight: 400;
+  max-width: 40vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .wedding-map__title {
+    font-size: 74px;
+  }
 }
