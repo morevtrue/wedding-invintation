@@ -8,13 +8,25 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1440px) {
   .menu__links {
-    max-width: 57vw;
+    max-width: 65vw;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
+  .menu__links {
+    max-width: 60vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .menu__links {
+    max-width: 70vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .menu__links {
     visibility: hidden;
     height: 0;

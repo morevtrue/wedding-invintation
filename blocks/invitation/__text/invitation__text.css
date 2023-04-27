@@ -13,12 +13,6 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .invitation__text {
-    margin-top: 100px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .invitation__text {
     font-size: 14px;
@@ -29,6 +23,5 @@
 @media screen and (max-width: 479px) {
   .invitation__text {
     font-size: 10px;
-    margin-top: 40px;
   }
 }

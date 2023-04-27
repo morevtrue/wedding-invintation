@@ -2,27 +2,13 @@
   display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .menu__burger {
     display: flex;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     text-align: center;
     background: url(../../../images/arrow.png) no-repeat center/cover;
     border: none;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .menu__burger {
-    width: 24px;
-    height: 24px;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .menu__burger {
-    width: 18px;
-    height: 18px;
   }
 }

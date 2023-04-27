@@ -4,7 +4,9 @@ const menu = document.querySelector('.menu');
 const buttonMenu = menu.querySelector('.menu__burger');
 const menuLinks = menu.querySelector('.menu__links');
 const menuLink = menu.querySelectorAll('.menu__link');
-const formSubmitButton = document.querySelector('.wedding-wish-guests__form-submit-button');
+const formTitle = document.querySelector('.wedding-wish-guests__title');
+const formSubtitle = document.querySelector('.wedding-wish-guests__subtitle');
+const messageHappy = document.querySelector('.wedding-wish-guests__happy');
 const settingsValidation = {
   formSelector: '.wedding-wish-guests__form',
   inputSelector: '.wedding-wish-guests__form-input',
@@ -45,22 +47,21 @@ const enableValidation = (config) => {
 };
 
 enableValidation(settingsValidation);
-formValidators['wedding-form'].resetValidation();
 
-const URL_APP = "https://script.google.com/macros/s/AKfycbyTrsT4fSBUyg_BHDABoECPoOosZYoV1Mz6_yGb5ZgsYAfpoWG9KLGmyGBuDI4AHsvL/exec";
+const URL_APP = "https://script.google.com/macros/s/AKfycbzG3Tw5iULLXqZJCgwvvM-LrOuNAPh3omqKFFSKR8mxkeqbh26VC9pWdzGeD15aEO7E/exec";
 
-const form = document.querySelector('#form');
+const form = document.querySelector('#wedding-form');
 
 form.action = URL_APP;
 
 form.addEventListener('submit', async (evt) => {
   evt.preventDefault();
 
-  const name = document.querySelector('.wedding-wish-guests__text_input_name');
-  const holly = document.querySelector('.wedding-wish-guests__text_input_holly');
-  const car = document.querySelector('.wedding-wish-guests__text_input_car');
-  const eat = document.querySelector('.wedding-wish-guests__text_input_eat');
-  const comment = document.querySelector('.wedding-wish-guests__text_input_comment');
+  const name = document.querySelector('[name=name]');
+  const holly = document.querySelector('[name=holly]');
+  const car = document.querySelector('[name=car]');
+  const eat = document.querySelector('[name=eat]');
+  const comment = document.querySelector('[name=comment]');
 
   let details = {
     name: name.value.trim(),
@@ -79,22 +80,23 @@ form.addEventListener('submit', async (evt) => {
 
   formBody = formBody.join('&');
 
-  const result = await fetch(URL_APP, {
+  await fetch(URL_APP, {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
     },
     mode: "no-cors",
     body: formBody,
-  })
-    .then((res) => res.json());
+  }).then((response) => response.json)
 
-  if (result.type === 'success') {
     name.value = '';
     holly.value = '';
     car.value = '';
     eat.value = '';
     comment.value = '';
-    alert('chek');
-  }
+
+    formTitle.style.opacity = '0';
+    formSubtitle.style.opacity = '0';
+    form.style.opacity = '0';
+    messageHappy.style.visibility = 'visible';
 })

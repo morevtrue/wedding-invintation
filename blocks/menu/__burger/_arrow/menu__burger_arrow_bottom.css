@@ -3,20 +3,8 @@
   transition: transform .2s linear;
 }
 
-@media screen and (max-width: 1024px) {
-  .menu__burger_arrow_bottom {
-    margin: 10px 0;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .menu__burger_arrow_bottom {
     margin: 8px 0;
-  }
-}
-
-@media screen and (max-width: 491px) {
-  .menu__burger_arrow_bottom {
-    margin: 5px 0;
   }
 }
