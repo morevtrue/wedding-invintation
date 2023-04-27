@@ -47,7 +47,7 @@ const enableValidation = (config) => {
 enableValidation(settingsValidation);
 formValidators['wedding-form'].resetValidation();
 
-const URL_APP = 'https://script.google.com/macros/s/AKfycbw9nHrFRNalNPp-3_-IHz87loGFYxqXDCj2Pk_HZ9-26HKuAcEag0kepZmbedKLrisf/exec';
+const URL_APP = "https://script.google.com/macros/s/AKfycbyTrsT4fSBUyg_BHDABoECPoOosZYoV1Mz6_yGb5ZgsYAfpoWG9KLGmyGBuDI4AHsvL/exec";
 
 const form = document.querySelector('#form');
 
@@ -80,15 +80,15 @@ form.addEventListener('submit', async (evt) => {
   formBody = formBody.join('&');
 
   const result = await fetch(URL_APP, {
-    method: 'POST',
+    method: "POST",
     headers: {
-      'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+      "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
     },
-    cors: 'no-cors',
+    mode: "no-cors",
     body: formBody,
   })
     .then((res) => res.json());
-  
+
   if (result.type === 'success') {
     name.value = '';
     holly.value = '';
