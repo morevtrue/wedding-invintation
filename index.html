@@ -206,44 +206,44 @@
         Мы очень надеемся увидеть Вас на нашей свадьбе!
         Просим уделить пару минут и ответить на вопросы ниже:)
       </p>
-      <form class="wedding-wish-guests__form" name="wedding-form" novalidate>
+      <form class="wedding-wish-guests__form" method="post" id="form" name="wedding-form" novalidate>
         <p class="wedding-wish-guests__form-input-place">
-          <label for="form-input-name" class="wedding-wish-guests__form-label">Ваше имя и фамилия*</label>
-          <input type="text" name="form-input-name"
+          <label for="name" class="wedding-wish-guests__form-label">Ваше имя и фамилия*</label>
+          <input type="text" name="name"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_name"
             id="form-input-name" placeholder="Введите имя" minlength="2" maxlength="30" required>
           <span class="wedding-wish-guests__form-error form-input-name-error"></span>
         </p>
         <p class="wedding-wish-guests__form-input-place">
-          <label for="form-input-holly" class="wedding-wish-guests__form-label">Ждать ли вас на ужине?*</label>
-          <input type="text" name="form-input-holly"
+          <label for="holly" class="wedding-wish-guests__form-label">Ждать ли вас на ужине?*</label>
+          <input type="text" name="holly"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_holly"
             id="form-input-holly" placeholder="Напишите ваш ответ" minlength="2" maxlength="30" required>
           <span class="wedding-wish-guests__form-error form-input-holly-error"></span>
         </p>
         <p class="wedding-wish-guests__form-input-place">
-          <label for="form-input-car" class="wedding-wish-guests__form-label">Как планируете добраться до
+          <label for="car" class="wedding-wish-guests__form-label">Как планируете добраться до
             места?*</label>
-          <input type="text" name="form-input-car"
+          <input type="text" name="car"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_car"
             id="form-input-car" placeholder="Своя машина или общественный транспорт?" minlength="2" maxlength="30"
             required>
           <span class="wedding-wish-guests__form-error form-input-car-error"></span>
         </p>
         <p class="wedding-wish-guests__form-input-place">
-          <label for="form-input-eat" class="wedding-wish-guests__form-label">Есть ли предпочтения по еде?*</label>
-          <input type="textarea" name="form-input-eat"
+          <label for="eat" class="wedding-wish-guests__form-label">Есть ли предпочтения по еде?*</label>
+          <input type="textarea" name="eat"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_eat"
             id="form-input-eat" placeholder="Напишите здесь" minlength="2" maxlength="100" required>
           <span class="wedding-wish-guests__form-error form-input-eat-error"></span>
         </p>
         <p class="wedding-wish-guests__form-input-place">
-          <label for="form-input-comment" class="wedding-wish-guests__form-label">Поле на случай, если Вам есть, что
+          <label for="comment" class="wedding-wish-guests__form-label">Поле на случай, если Вам есть, что
             сказать нам:)</label>
-          <textarea name="form-input-comment" id="form-input-comment" cols="30" rows="2"
+          <textarea name="comment" id="form-input-comment" cols="30" rows="2"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_comment"></textarea>
         </p>
-        <button type="submit" class="wedding-wish-guests__form-submit-button">Отправить</button>
+        <input type="submit" class="wedding-wish-guests__form-submit-button" value="Отправить" />
       </form>
     </section>
   </main>
