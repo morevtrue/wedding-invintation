@@ -16,6 +16,7 @@
 @import url(../blocks/menu/__burger/_arrow/menu__burger_arrow_bottom.css);
 @import url(../blocks/menu/__burger/_arrow/menu__burger_arrow_top.css);
 @import url(../blocks/menu/__links/_opened/menu__links_opened.css);
+@import url(../blocks/menu/_theme/menu_theme_opacity.css);
 
 /* invitation */
 @import url(../blocks/invitation/invitation.css);
