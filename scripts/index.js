@@ -48,7 +48,7 @@ const enableValidation = (config) => {
 
 enableValidation(settingsValidation);
 
-const URL_APP = "https://script.google.com/macros/s/AKfycbzG3Tw5iULLXqZJCgwvvM-LrOuNAPh3omqKFFSKR8mxkeqbh26VC9pWdzGeD15aEO7E/exec";
+const URL_APP = "https://script.google.com/macros/s/AKfycbx7yHFCq7T9ePebZNIBhj1S2whjyogViGsgfjoLRijnFXkZwu3hX7VfRKGe5V-v-Cqx/exec";
 
 const form = document.querySelector('#wedding-form');
 

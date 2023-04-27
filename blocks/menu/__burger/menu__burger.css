@@ -11,4 +11,8 @@
     background: url(../../../images/arrow.png) no-repeat center/cover;
     border: none;
   }
+
+  .menu__burger:hover {
+    cursor: pointer;
+  }
 }

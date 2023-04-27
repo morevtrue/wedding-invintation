@@ -8,5 +8,6 @@
     margin: 0 auto;
     background-color: rgba(80, 163, 204, .6);
     transition: all .5s linear;
+    z-index: 100;
   }
 }

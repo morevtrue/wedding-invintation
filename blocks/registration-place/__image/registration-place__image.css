@@ -3,15 +3,3 @@
   height: 100%;
   object-fit: cover;
 }
-
-/* @media screen and (max-width: 767px) {
-  .registration-place__image {
-    max-height: 300px;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .registration-place__image {
-    max-height: 200px;
-  }
-} */
