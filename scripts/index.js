@@ -93,7 +93,7 @@ form.addEventListener('submit', async (evt) => {
     },
     mode: "no-cors",
     body: formBody,
-  }).then((response) => response.json)
+  })
 
     name.value = '';
     holly.value = '';
