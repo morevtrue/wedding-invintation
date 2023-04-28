@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
   <title>Приглашение на свадьбу</title>
 </head>
 
@@ -38,9 +39,9 @@
       <h1 class="invitation__title">Вячеслав <span class="invitation__enter">и</span> Софья</h1>
       <p class="invitation__subtitle">Приглашают вас на свадьбу</p>
       <p class="invitation__date">07.07.2023</p>
-      <img src="images/photo-invitation.jpg" alt="фотография молодожёнов" class="invitation__photo">
+      <img id="our-history" src="images/photo-invitation.jpg" alt="фотография молодожёнов" class="invitation__photo">
     </section>
-    <section id="our-history" class="our-history">
+    <section class="our-history">
       <div class="our-history__text">
         <h2 class="our-history__title">Наша история</h2>
         <ul class="our-history__text-paragraphs">
@@ -63,9 +64,9 @@
           </li>
         </ul>
       </div>
-      <img src="images/photo-2.jpg" alt="ещё одно фото молодожёнов" class="our-history__image">
+      <img id="wedding-plan" src="images/photo-2.jpg" alt="ещё одно фото молодожёнов" class="our-history__image">
     </section>
-    <section id="wedding-plan" class="wedding-plan">
+    <section class="wedding-plan">
       <h2 class="wedding-plan__title">Программа свадьбы</h2>
       <p class="wedding-plan__day">7 июля, пятница</p>
       <article class="wedding-plan__row">
@@ -115,14 +116,14 @@
             </h3>
           </li>
           <li>
-            <p class="wedding-plan__text">
+            <p id="wedding-place" class="wedding-plan__text">
               С официальной частью покончено, да начнётся веселье! Готовье удобные туфли и отличное настроение.
             </p>
           </li>
         </ul>
       </article>
     </section>
-    <section id="wedding-place" class="registration-place registration-place_theme_triumph">
+    <section class="registration-place registration-place_theme_triumph">
       <article class="registration-place__column">
         <ul class="registration-place__list">
           <li>
@@ -153,11 +154,11 @@
       <div class="wedding-map__text">
         <h2 class="wedding-map__title">Карта для вашего удобства</h2>
       </div>
-      <iframe
+      <iframe id="dresscode"
         src="https://yandex.ru/map-widget/v1/?um=constructor%3Aeab9d4c0083c748c6bed260386130a436d7ef10f08fcfb6e90b1d26f7ce9f737&amp;source=constructor"
         width="100%" height="400" frameborder="0"></iframe>
     </section>
-    <section id="dresscode" class="wedding-dresscode">
+    <section class="wedding-dresscode">
       <h2 class="wedding-dresscode__title">Дресс-код</h2>
       <p class="wedding-dresscode__subtitle">Будем очень благодарны, если вы поддержите нас и выберите свои наряды в
         цветах нашей свадьбы.</p>
@@ -194,13 +195,13 @@
         </li>
       </ul>
       <div class="wedding-gifts__answer">
-        <p class="wedding-gifts__text">
+        <p id="form" class="wedding-gifts__text">
           Просим дать ответ о вашем присутствии
           не позднее 15 мая
         </p>
       </div>
     </section>
-    <section id="form" class="wedding-wish-guests">
+    <section class="wedding-wish-guests">
       <p class="wedding-wish-guests__happy">Спасибо!</p>
       <h2 class="wedding-wish-guests__title">Анкета</h2>
       <p class="wedding-wish-guests__subtitle">
@@ -212,14 +213,15 @@
           <label for="name" class="wedding-wish-guests__form-label">Ваше имя и фамилия*</label>
           <input type="text" name="name"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_name"
-            id="form-input-name" placeholder="Введите имя" minlength="2" maxlength="30" required>
+            id="form-input-name" placeholder="Введите имя" minlength="2" maxlength="30" autocomplete="off" required>
           <span class="wedding-wish-guests__form-error form-input-name-error"></span>
         </p>
         <p class="wedding-wish-guests__form-input-place">
           <label for="holly" class="wedding-wish-guests__form-label">Ждать ли вас на ужине?*</label>
           <input type="text" name="holly"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_holly"
-            id="form-input-holly" placeholder="Напишите ваш ответ" minlength="2" maxlength="30" required>
+            id="form-input-holly" placeholder="Напишите ваш ответ" minlength="2" maxlength="30" autocomplete="off"
+            required>
           <span class="wedding-wish-guests__form-error form-input-holly-error"></span>
         </p>
         <p class="wedding-wish-guests__form-input-place">
@@ -228,20 +230,20 @@
           <input type="text" name="car"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_car"
             id="form-input-car" placeholder="Своя машина или общественный транспорт?" minlength="2" maxlength="30"
-            required>
+            autocomplete="off" required>
           <span class="wedding-wish-guests__form-error form-input-car-error"></span>
         </p>
         <p class="wedding-wish-guests__form-input-place">
           <label for="eat" class="wedding-wish-guests__form-label">Есть ли предпочтения по еде?*</label>
           <input type="textarea" name="eat"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_eat"
-            id="form-input-eat" placeholder="Напишите здесь" minlength="2" maxlength="100" required>
+            id="form-input-eat" placeholder="Напишите здесь" minlength="2" maxlength="100" autocomplete="off" required>
           <span class="wedding-wish-guests__form-error form-input-eat-error"></span>
         </p>
         <p class="wedding-wish-guests__form-input-place">
           <label for="comment" class="wedding-wish-guests__form-label">Поле на случай, если Вам есть, что
             сказать нам:)</label>
-          <textarea name="comment" id="form-input-comment" cols="30" rows="2" maxlength="200"
+          <textarea name="comment" id="form-input-comment" cols="30" rows="2" maxlength="200" autocomplete="off"
             class="wedding-wish-guests__form-input wedding-wish-guests__text wedding-wish-guests__text_input_comment"></textarea>
         </p>
         <input type="submit" class="wedding-wish-guests__form-submit-button" value="Отправить" />

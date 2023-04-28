@@ -7,6 +7,7 @@ const menuLink = menu.querySelectorAll('.menu__link');
 const formTitle = document.querySelector('.wedding-wish-guests__title');
 const formSubtitle = document.querySelector('.wedding-wish-guests__subtitle');
 const messageHappy = document.querySelector('.wedding-wish-guests__happy');
+const formSubmitButton = document.querySelector('.wedding-wish-guests__form-submit-button')
 const settingsValidation = {
   formSelector: '.wedding-wish-guests__form',
   inputSelector: '.wedding-wish-guests__form-input',
@@ -19,18 +20,19 @@ const settingsValidation = {
 // ПЕРЕКЛЮЧЕНИЕ МЕНЮ--------------------------------
 buttonMenu.addEventListener('click', () => {
   switchMenu();
+  menu.classList.toggle('menu_theme_opacity');
 });
 
 menuLink.forEach(link => {
   link.addEventListener('click', () => {
     switchMenu();
+    menu.classList.remove('menu_theme_opacity');
   })
 });
 
 const switchMenu = () => {
   menuLinks.classList.toggle('menu__links_opened');
   buttonMenu.classList.toggle('menu__burger_arrow_top');
-  menu.classList.toggle('menu_theme_opacity');
 };
 
 // ВАЛИДАЦИЯ----------------------------------------
@@ -53,6 +55,10 @@ const URL_APP = "https://script.google.com/macros/s/AKfycbx7yHFCq7T9ePebZNIBhj1S
 const form = document.querySelector('#wedding-form');
 
 form.action = URL_APP;
+
+formSubmitButton.addEventListener('click', () => {
+  formSubmitButton.value = 'Подождите...';
+})
 
 form.addEventListener('submit', async (evt) => {
   evt.preventDefault();
