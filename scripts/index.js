@@ -7,7 +7,7 @@ const menuLink = menu.querySelectorAll('.menu__link');
 const formTitle = document.querySelector('.wedding-wish-guests__title');
 const formSubtitle = document.querySelector('.wedding-wish-guests__subtitle');
 const messageHappy = document.querySelector('.wedding-wish-guests__happy');
-const formSubmitButton = document.querySelector('.wedding-wish-guests__form-submit-button')
+const formSubmitButton = document.querySelector('.wedding-wish-guests__form-submit-button');
 const settingsValidation = {
   formSelector: '.wedding-wish-guests__form',
   inputSelector: '.wedding-wish-guests__form-input',
